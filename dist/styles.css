@@ -57,7 +57,6 @@ a {
 }
 
 .choice:hover {
-    font-size: 1.1rem;
     opacity: 90%;
 }
 
@@ -73,9 +72,14 @@ a {
     opacity: 90%;
 }
 
+.inactive {
+    display: none;
+}
+
 #top-banner {
     display: flex;
     height: 600px;
+    min-height: 400px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -98,8 +102,4 @@ a {
 
 #banner-img-container {
     height: 15em;
-}
-
-#menu-page {
-    display: none;
 }
