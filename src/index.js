@@ -92,7 +92,7 @@ function selectPage (e) {
     for (let i = 0; i < choices.length; i++) {
         choices[i].className = "choice";
     }
-    target = e.currentTarget;
+    let target = e.currentTarget;
     if (target.className === "choice") changePage(target.getAttribute("data-choice"));
     target.className = target.className === "choice" ? "choice active" : "choice" ;
 }
